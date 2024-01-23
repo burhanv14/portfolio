@@ -8,8 +8,8 @@ export default function About(){
     return(
     <div class="bg-gray-950 h-full">
         <div class="pl-10">
-            <div className="pfp" class="bg-stone-900 h-56 w-96 rounded-3xl rounded-t-none text-center absolute ">
-                <h1 class=" text-3xl text-amber-50 pt-24"  style={{fontFamily:'Kalnia'}}>ABOUT</h1>
+            <div class="bg-stone-900 h-56 w-96 rounded-3xl rounded-t-none text-center z-30 pb-0">
+                <h1 class=" text-3xl text-amber-50 pt-24 "  style={{fontFamily:'Kalnia'}}>ABOUT</h1>
             </div>
             <span>
                 <div class="absolute left-1/3 pt-24 w-3/5">
@@ -59,7 +59,7 @@ export default function About(){
                     </div>
                 </div>
             </span>
-            <div class="pl-16 relative pt-44 pb-10">
+            <div class="pl-16 relative top-4 pb-28">
                <Image
                 src={pfp}
                 alt="Profile Picture"

@@ -1,5 +1,4 @@
-import BarChart from '../components/barChart.js'
-import RadarChart from '../components/barChart.js'
+import BarChart from './barChart.js'
 
 
 export default function Skills(){

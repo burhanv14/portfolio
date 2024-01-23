@@ -13,7 +13,7 @@ export default function Header(){
     window.scrollTo({top:0,left:0,behavior:"smooth"});
   }
   const goToSkills = ()=>{
-    window.scrollTo({top:1590,left:0,behavior:"smooth"});
+    window.scrollTo({top:1710,left:0,behavior:"smooth"});
   }
   
   const goToProjects = ()=>{
