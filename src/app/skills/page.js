@@ -1,5 +1,5 @@
 import BarChart from './barChart.js'
-
+import React, { useRef } from "react";
 
 export default function Skills(){
     return (
