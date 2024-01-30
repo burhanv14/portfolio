@@ -1,3 +1,5 @@
+'use client'
+
 import BarChart from './barChart.js'
 import React, { useRef } from "react";
 
