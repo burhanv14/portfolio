@@ -1,5 +1,5 @@
 import './globals.css'
-import Header from './components/header'
+import Header from './header'
 
 export const metadata = {
   title: 'Burhanuddin Vora',
@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         <header>
-          <Header/>
+            <Header/>
           </header>
           <main>
           {children}

@@ -35,7 +35,7 @@ const options = {
     },
     title: {
       display: false,
-      text: 'Chart.js Horizontal Bar Chart',
+      text: 'SKILLS',
     },
   },
   scales: {
@@ -48,14 +48,14 @@ const options = {
   },
 };
 
-const labels =['DSA', 'C/C++', 'Java', 'HTML', 'CSS', 'Javascript','react.js','next.js','SQL','Kotlin'];
+const labels =['C/C++', 'Java', 'Python','DSA','OOPS', 'HTML5/CSS3', 'Javascript','MERN','NextJS','Machine-Learning','MATLAB','Git/Github'];
 
 
 const data = {
   labels,
   datasets: [
     {
-      data:['7','8','8','10','10','7','7','9','10','6'],
+      data:['9','10','8','10','10','9','7','9','9','7','7','10'],
       borderColor: 'rgb(255, 99, 132)',
       backgroundColor: 'rgba(255, 99, 132, 0.5)',
       
