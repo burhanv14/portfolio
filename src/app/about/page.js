@@ -45,7 +45,7 @@ export default function About(){
           </div>
           <div class="flex flex-col md:flex md:flex-row pt-8 md:pt-14 md:w-1/2 md:gap-x-40 gap-y-10 md:gap-y-0">
               <div class="md:pl-24 md:pt-10">
-                    <p class="bg-zinc-900 h-72 w-96 rounded-3xl text-left transition duration-500 hover:scale-105 p-9 text-white" style={{fontFamily:'Ubuntu'}}>Pre-Final year student at The LNM Institute of Information Technology , Jaipur.
+                    <p class="bg-zinc-900 h-72 w-full md:w-96 rounded-3xl text-left transition duration-500 hover:scale-105 p-9 text-white" style={{fontFamily:'Ubuntu'}}>Pre-Final year student at The LNM Institute of Information Technology , Jaipur.
                     <br/>I am an active coding enthusiast , with passion in new emerging fields of technology and competitive coding as well.<br/>I am a machine learning enthusiast along with knowledge in the field of web development.</p>
               </div>
               <div class="pl-12 md:pl-0">

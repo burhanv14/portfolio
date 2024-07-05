@@ -49,7 +49,7 @@ function Header() {
   }
   
   return (
-    <nav class="sticky md:fixed top-0 z-30 w-full">
+    <nav class="fixed top-0 z-30 w-full">
         <Image alt="Header background" src={headImg} class="h-24 w-full md:h-20 md:w-full object-fill opacity-50 bg-cover absolute z-10"/>
         <div class="flex flex-row justify-between">
             <div class="p-4 md:p-2 flex-row">
