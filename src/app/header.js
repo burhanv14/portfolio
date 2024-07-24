@@ -24,7 +24,7 @@ function Header() {
       window.scrollTo({ top: 2200, left: 0, behavior: "smooth" });
   }
   const goToContact = () => {
-      window.scrollTo({ top: 2900, left: 0, behavior: "smooth" });
+      window.scrollTo({ top: 3000, left: 0, behavior: "smooth" });
   }
 
   const mobgoToAbout = () => {

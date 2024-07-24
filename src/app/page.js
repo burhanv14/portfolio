@@ -7,12 +7,17 @@ import About from './about/page';
 import Skills from './skills/page';
 import Projects from './projects/page';
 import Footer from './footer';
+import Dmodel from './dmodel.js';
+import { motion, useScroll} from "framer-motion"
+
 
 
 function Page() {
   const router = useRouter();
+  const { scrollYProgress } = useScroll()
   return (
     <div>
+      <motion.div style={{ scaleX: scrollYProgress }} class="fixed top-0 left-0 right-0 h-1 bg-fuchsia-900 z-50 rounded-lg"/>
       <div> 
       <video src={require('../../public/bg_vid.mp4')} autoPlay loop muted class="object-fill h-svh md:h-svh w-full absolute top-0 -z-10 bg-contain"/>
         <div class="pl-4 md:pl-16 flex flex-row">
@@ -26,7 +31,7 @@ function Page() {
                 delaySpeed={18000}/>
                 <span style={{fontFamily:'Ubuntu'}} class="text-base p-2 pb-0 md:text-lg md:p-4 md:pb-0">
                   <Typewriter
-                  words={['Web-Developement','Machine Learning','Competitive Coding']}
+                  words={['Web-Developer','Data Scientist','Competitive Coder']}
                   loop={0}
                   cursor
                   cursorStyle='|'
@@ -44,12 +49,9 @@ function Page() {
                   <span class="relative">View Resume</span>
             </a>
          </div>
-         {/*<div class="h-64 w-64 px-16 absolute top-96 md:absolute md:z-30 md:right-36 md:top-64">
-         <Spline
-        scene="https://prod.spline.design/QftcSoEbroF9lA7x/scene.splinecode" 
-        width={1080}
-        height={1080}/>
-        </div>*/}
+         {/* <div class="w-full">
+         <Dmodel />
+        </div> */}
         </div>
       </div>
       <div>

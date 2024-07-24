@@ -18,7 +18,7 @@ function Projects() {
             <div class="flex flex-col md:flex md:flex-row md:gap-x-80 gap-y-8 md:gap-y-0">
             <Card title="Personal Portfolio" desc="Designed and developed my own portfolio using NextJS." button="Visit Website" lk="https://portfolio-dsc6avbdg-burhanuddin-voras-projects.vercel.app/"/>
             <Card title="Diabetes Predictor" desc="Built a web-application which predicts diabetes based on input data.•Trained on Kernel SVM, produces
-real-time predictions. Technolgies used: HTML, CSS, Kernel SVM(ML), Python(Flask)" button="Git" lk="https://github.com/burhanv14/DiabetesPredictor"/>
+real-time predictions. Technolgies used: HTML, CSS, Kernel SVM(ML), Python(Flask)" button="Github" lk="https://github.com/burhanv14/DiabetesPredictor"/>
             </div>
           </div>
                 
